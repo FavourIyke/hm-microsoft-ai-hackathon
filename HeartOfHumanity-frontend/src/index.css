@@ -17,8 +17,8 @@
     --popover: 0 0% 100%;
     --popover-foreground: 221 8% 14%;
 
-    --primary: 196 74% 49%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 140 70% 50%; /* Emerald green */
+    --primary-foreground: 0 0% 100%; 
 
     --secondary: 256 100% 97%;
     --secondary-foreground: 221 8% 14%;

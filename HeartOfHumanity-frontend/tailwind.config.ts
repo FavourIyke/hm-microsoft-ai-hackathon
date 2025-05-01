@@ -63,9 +63,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				relief: {
-					blue: '#1EAEDB',
+					blue: '#2E8B57',
 					purple: '#E5DEFF',
-					orange: '#F97316',
+					orange: '#FFD700',
 					lightGray: '#F1F0FB',
 					darkGray: '#221F26'
 				}

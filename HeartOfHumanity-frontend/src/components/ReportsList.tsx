@@ -79,8 +79,8 @@ export const ReportsList = () => {
       
       {reports.map((report) => (
         <Link key={report.id} to={`/reports/${report.id}`} className="block">
-          <Card className="shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-            <CardHeader className="pb-2">
+<Card className="shadow-md hover:shadow-lg transition-shadow cursor-pointer">
+<CardHeader className="pb-2">
               <div className="flex justify-between items-start">
                 <div className="space-y-1">
                   <CardTitle className="text-lg">

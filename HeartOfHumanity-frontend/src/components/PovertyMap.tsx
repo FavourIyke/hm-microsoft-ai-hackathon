@@ -129,7 +129,7 @@ const PovertyMap = () => {
   return (
     <div className="min-h-screen" style={{ backgroundColor: COLORS.background, padding: '1rem' }}>
       <div className="container mx-auto">
-        <h1 className="text-3xl font-bold mb-6" style={{ color: COLORS.text }}>Nigeria Crisis Heatmap</h1>
+        <h1 className="text-3xl font-bold mb-6" style={{ color: COLORS.text }}>Impact Zones</h1>
         
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           {/* Legend Sidebar */}

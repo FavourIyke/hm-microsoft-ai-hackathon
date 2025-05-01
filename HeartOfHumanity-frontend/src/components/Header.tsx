@@ -13,7 +13,7 @@ export const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-xl font-bold">
-            ReliefLink
+            HeartOfHumanity
           </Link>
         </div>
 
@@ -47,8 +47,8 @@ export const Header = () => {
                 <li>
                   <Link to="/poverty-map" className="hover:underline flex items-center gap-1 py-2 md:py-0">
                     <MapPin className="h-4 w-4" />
-                    Poverty Map
-                  </Link>
+                    The Need Map              
+                    </Link>
                 </li>
                 
                 <li>
@@ -63,7 +63,7 @@ export const Header = () => {
                 </li>
                 
                 <li className="font-bold py-2 md:py-0">
-                  {user?.name} ({user?.role === "admin" ? "Admin" : "Field Worker"})
+                   ({user?.role === "admin" ? "Admin" : "Demo User"})
                 </li>
               </>
             )}
@@ -72,7 +72,7 @@ export const Header = () => {
               <>
                 <li>
                   <Link to="/login">
-                    <Button variant="outline" className="text-white border-white hover:bg-white hover:text-relief-blue">
+                    <Button variant="outline" className="text-relief-blue border-white hover:bg-white hover:text-relief-blue">
                       Login
                     </Button>
                   </Link>

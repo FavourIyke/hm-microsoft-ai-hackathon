@@ -11,7 +11,7 @@ import axios from "axios";
 // Group reports by issue type
 const getStatusBadge = (status: string) => {
   switch (status) {
-    case "pending":
+    case "Open":
       return <Badge className="bg-yellow-500">Pending</Badge>;
     case "in_progress":
       return <Badge className="bg-blue-500">Resources Dispatched</Badge>;
@@ -100,7 +100,7 @@ const ReportDetails = () => {
             <CardTitle>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <MapPin className="h-5 w-5 text-gray-500" />
+                  <MapPin className="h-9 w-5 text-gray-500" />
                   {report.address}, {report.city}, {report.state}
                 </div>
                 {getStatusBadge(report.status)}
